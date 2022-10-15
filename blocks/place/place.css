@@ -1,0 +1,16 @@
+.place {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  justify-content: space-between;
+  max-width: 984px;
+  grid-template-areas:
+    "title link"
+    "image parapraph";
+  gap: 48px 40px;
+  padding-bottom: 80px;
+}
+
+.place:last-child {
+  padding-bottom: 92px;
+}
