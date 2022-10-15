@@ -24,4 +24,3 @@
 # Ссылка на проект
 
 [Ссылка на проект на GitHub](https://github.com/MalakhN/russian-travel.git)
-https://github.com/MalakhN/russian-travel.git
