@@ -3,3 +3,11 @@
   text-decoration: none;
   padding-right: 18px;
 }
+
+.footer__link:last-child {
+  padding-right: 0;
+}
+
+.footer__link:hover {
+  opacity: 80%;
+}

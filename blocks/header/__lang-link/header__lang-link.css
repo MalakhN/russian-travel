@@ -1,15 +1,27 @@
 .header__lang-link {
   color: #FFFFFF;
-  text-decoration: none;
   width: 400px;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
+  padding-right: 18px;
+}
+
+.header__lang-link_disabled {
+  text-decoration: none;
 }
 
 .header__lang-link:focus {
   text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: 80%;
+}
+
+.header__lang-link:last-child {
+  padding-right: 0;
 }
 
 @media (min-width: 768px) {
