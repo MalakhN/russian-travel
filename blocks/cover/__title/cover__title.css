@@ -8,7 +8,7 @@
   line-height: 76px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;

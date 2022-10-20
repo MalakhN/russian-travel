@@ -1,9 +1,22 @@
 .footer {
-  width: 100%;
-  max-width: 1184px;
-  margin: 92px auto 24px;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
-  grid-template-rows: repeat(1, minmax(min-content, max-content));
+  display: flex;
   justify-content: space-between;
+  width: 100%;
+  max-width: 1280px;
+  margin: 92px auto 24px;
+  padding: 0 48px;
+  font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    margin: 64px auto 24px;
+  }
 }

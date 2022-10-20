@@ -1,3 +1,10 @@
 .header__links {
   align-self: end;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 320px) {
+  .header__lang-link {
+    margin-bottom: 8px;
+  }
 }
