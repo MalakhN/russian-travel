@@ -8,10 +8,6 @@
   padding-right: 18px;
 }
 
-.header__lang-link_disabled {
-  text-decoration: none;
-}
-
 .header__lang-link:focus {
   text-decoration: underline;
 }
@@ -25,13 +21,6 @@
 }
 
 @media (max-width: 768px) {
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 20px;
-  }
-}
-
-@media (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

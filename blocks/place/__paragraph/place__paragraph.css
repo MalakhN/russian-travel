@@ -7,6 +7,11 @@
   width: 100%;
   max-width: 484px;
   padding-bottom: 26px;
+  margin: 0;
+}
+
+.place__paragraph:last-child {
+  padding-bottom: 0;
 }
 
 @media (max-width: 1024px) {
