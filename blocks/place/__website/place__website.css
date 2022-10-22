@@ -3,7 +3,7 @@
   align-self: end;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 640px) {
   .place__website {
   padding: 0 16px;
   }

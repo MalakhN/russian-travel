@@ -15,7 +15,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 640px) {
   .places {
     padding: 64px 0 66px 0;
   }

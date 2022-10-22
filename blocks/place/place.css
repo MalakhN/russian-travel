@@ -1,7 +1,7 @@
 .place {
   margin: 0 auto 80px;
   display: grid;
-  grid-template-columns: 460px, auto;
+  grid-template-columns: 460px auto;
   justify-content: space-between;
   width: 100%;
   max-width: 984px;
@@ -20,14 +20,14 @@
 
 @media (max-width: 1024px) {
   .place {
-    grid-template-columns: 440px, auto;
+    grid-template-columns: 440px auto;
     gap: 48px 32px;
   }
 }
 
 @media (max-width: 768px) {
   .place {
-    grid-template-columns: 340px, auto;
+    grid-template-columns: 340px auto;
     gap: 48px 28px;
     margin: 0 auto 73px;
   }
@@ -35,14 +35,14 @@
 
 @media (max-width: 640px) {
   .place {
-    grid-template-columns: 320px, auto;
+    grid-template-columns: 320px;
     grid-template-areas:
     "title"
     "link"
     "image"
     "parapraph";
     gap: 32px;
-    margin-bottom: 0 auto 50px;
+    margin: 0 auto 50px;
   }
 }
 

@@ -5,12 +5,13 @@
   line-height: 76px;
   margin: 0;
   align-self: end;
-  width: 460px;
+  width: 100%;
+  max-width: 460px;
 }
 
 @media (max-width: 1024px) {
   .place__title {
-    width: 440px;
+    max-width: 440px;
   }
 }
 
@@ -18,15 +19,15 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    width: 340px;
+    max-width: 340px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 640px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    width: 288px;
+    max-width: 288px;
     padding-left: 16px;
   }
 }
