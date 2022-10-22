@@ -1,5 +1,5 @@
 .place {
-  margin: auto;
+  margin: 0 auto 80px;
   display: grid;
   grid-template-columns: 460px, auto;
   justify-content: space-between;
@@ -9,14 +9,13 @@
     "title link"
     "image parapraph";
   gap: 48px 40px;
-  margin-bottom: 80px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .place:last-child {
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
@@ -28,22 +27,22 @@
 
 @media (max-width: 768px) {
   .place {
-    grid-template-columns: 440px, auto;
+    grid-template-columns: 340px, auto;
     gap: 48px 28px;
-    margin-bottom: 73px;
+    margin: 0 auto 73px;
   }
 }
 
-@media (max-width: 634px) {
+@media (max-width: 640px) {
   .place {
-    grid-template-columns: repeat(1, minmax(320px, 1fr));
+    grid-template-columns: 320px, auto;
     grid-template-areas:
     "title"
     "link"
     "image"
     "parapraph";
     gap: 32px;
-    margin-bottom: 50px;
+    margin-bottom: 0 auto 50px;
   }
 }
 

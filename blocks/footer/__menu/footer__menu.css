@@ -1,13 +1,10 @@
 .footer__menu {
-  .footer__menu {
     display: flex;
     flex-direction: row;
 }
-}
 
-@media (max-width: 634px) {
+@media (max-width: 705px) {
     .footer__menu {
-      display: flex;
       flex-direction: column;
     }
 }

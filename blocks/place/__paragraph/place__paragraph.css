@@ -4,8 +4,6 @@
   font-size: 18px;
   line-height: 163%;
   text-align: left;
-  width: 100%;
-  max-width: 484px;
   padding-bottom: 26px;
   margin: 0;
 }
@@ -14,23 +12,17 @@
   padding-bottom: 0;
 }
 
-@media (max-width: 1024px) {
-  .place__paragraph {
-  max-width: 456px;
-  }
-}
-
 @media (max-width: 768px) {
   .place__paragraph {
   font-size: 16px;
-  max-width: 352px;
   }
 }
 
 @media (max-width: 320px) {
   .place__paragraph {
-  font-size: 16px;
-  max-width: 288px;
-  padding: 0 16px;
+  padding: 0 16px 25px;
+  }
+  .place__paragraph:last-child {
+    padding: 0 16px;
   }
 }

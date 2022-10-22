@@ -1,5 +1,5 @@
 .intro {
-  margin: auto;
+  margin: 0 auto;
   max-width: 984px;
   padding-top: 92px;
   padding-bottom: 92px;
@@ -17,7 +17,6 @@
 
 @media (max-width: 768px) {
   .intro {
-    margin: 0;
     padding: 88px 24px;
   }
 }
