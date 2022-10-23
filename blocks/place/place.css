@@ -35,7 +35,7 @@
 
 @media (max-width: 640px) {
   .place {
-    grid-template-columns: 320px;
+    grid-template-columns: 1fr;
     grid-template-areas:
     "title"
     "link"
@@ -46,3 +46,8 @@
   }
 }
 
+@media (max-width: 320px) {
+  .place {
+    grid-template-columns: 320px;
+  }
+}
