@@ -1,26 +1,17 @@
-# Название проекта
+# Journey through Russia
+**Adaptive - training project**
 
-**Путешествия по России**
+### Description
+The resource contains useful information about popular destinations for traveling in Russia.
 
-# Описание проекта
+## Technologies
+- Flexbox
+- Grid
+- BEM
+- SEO
+    - alt tags of images
+    - semantic tags for markup of titles and main text
+    - text information is available for indexing
+- Adaptive layout
 
-На ресурсе собрана полезная информация о популярных направлениях для путешествий по России.
-
-# Функциональность проекта
-
-- Полезная данные (цифры и факты)
-- Инфографика
-- Фотоматериалы с описанием каждого направления
-- Ссылки на другие полезные ресурсы
-
-# Используемые технологии
-
-- Flexbox-верстка
-- Grid -вёрстка
-- Файловая структура БЭМ-nested
-- Оптимизация для поисковиков (alt-теги изображений, семантические теги для разметки заголовков и основного текста, вся текстовая информация доступна для индексации)
-- Адаптивная вёрстка под самые популярные разрешения экрана
-
-# Ссылка на проект
-
-[Ссылка на проект на GitHub](https://malakhn.github.io/russian-travel/)
+[Link to the project on GitHub Pages](https://malakhn.github.io/russian-travel/)
