@@ -1,5 +1,5 @@
 # Journey through Russia
-**Adaptive - training project**
+**Adaptive website - training project**
 
 ### Description
 The resource contains useful information about popular destinations for traveling in Russia.
